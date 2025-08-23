@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-from emotion_app import detect_emotion
+from emotion_package.emotion_app import detect_emotion, format_output
+
 
 app = Flask(__name__)
 
